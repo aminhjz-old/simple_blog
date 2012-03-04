@@ -1,4 +1,8 @@
 SimpleBlog::Application.routes.draw do
+  get "static_pages/help"
+  get "static_pages/about"
+  get "static_pages/home"
+
   resources :posts
 
   # The priority is based upon order of creation:
